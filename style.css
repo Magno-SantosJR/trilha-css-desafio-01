@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: linear-gradient(
+        to bottom, 
+        rgb(0, 8, 12, 1)90%, 
+        rgb(8, 59, 71) 100%, 
+        rgb(0, 8, 12, 1) 50%
+    );
+}
+
+
+.banner{
+    background: linear-gradient(
+        to bottom, 
+        rgb(0, 8, 12, 0.3)0%, 
+        rgb(20, 114, 183, 0.3) 50%,
+        rgb(0, 8, 12, 0.3) 100%
+    ), url(../assets/images/banner.png
+    );
+    height: 605px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(51, 168, 219, 1);
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 393px;
+    width: 510px;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+}
+.logo{
+    height: 268px;
+    width: 268px;
+}
+
+.banner-content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    background: linear-gradient(180deg, rgb(51, 168, 219, 1), rgb(20, 114, 183, 1)); /* Define um degradê */
+        -webkit-background-clip: text; /* Suporte para navegadores que não suportam background-clip: text */
+        background-clip: text;
+        -webkit-text-fill-color: transparent; /* Preenche o texto com o degradê */
+        color: transparent; /* Torna o texto transparente */
+}
+
+.banner-content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1)
+}
+
+.banner-content button{
+    background-color: transparent;
+    border: 2px solid; 
+    border-color: linear-gradient(180deg, rgb(59, 161, 205, 1), rgb(21, 114, 183, 1) );
+    cursor: pointer;
+    color: rgba(49, 168, 221, 1);
+    height: 57px;
+    width: 326px;
+    padding: 19px 91px;
+    gap: 31px;
+    font-size: 16px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 118px;
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 325px;
+    width: 792px;
+    gap: 24px;
+}
+
+#course-content h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 19%;
+    color: rgba(51, 168, 219, 1);
+    height: 38px;
+    width: 477px;
+}
+
+#course-content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    height: 38px;
+    width: 792px;
+}
+
+.modules-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 325px;
+    width: 792px;
+    gap: 24px;
+}
+
+.module{
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-radius: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    height: 51px;
+    width: 535px;
+    padding: 16px 127px;
+    gap: 10px;
+    background: rgba(37, 37, 37, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.module span{
+    color: rgb(65, 101, 116);
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    ;
+}
+
+#transform-world{
+    position: relative;
+    background-image: url(../assets/images/woman-code.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 363px;
+    margin-top: 90px;
+    opacity: 0.6;
+    border: 1px solid rgba(51, 168, 219, 1);
+}
+
+#transform-world p{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 3px 2px rgba(51, 168, 219, 1);
+    height: 141px;
+    width: 244px;
+    top: 111px;
+    left: 198px;
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 76px;
+}
+
+#professional-challenges h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 19%;
+    text-align: center ;
+    color: rgba(51, 168, 219, 1);
+    width: 746px;
+    height: 76px;
+}
+
+#professional-challenges img{
+    height: 429px;
+    width: 659px;
+    margin-top: 32px;
+}
+
+#professional-challenges p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    width: 792px;
+    height: 76px;
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 170px;
+    width: 100%;
+    margin-top: 91px;
+    margin-bottom: 0px;
+    gap: 10px;
+    border: 1px solid rgba(51, 168, 219, 1);
+}
+
+footer img{
+    margin-top: 59px;
+    height: 44px;
+    width: 310px;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    height: 19px;
+    width: 259px;
+    margin-bottom: 38px;
+}
